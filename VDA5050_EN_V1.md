@@ -226,9 +226,9 @@ Functions of the master control are:
 - Detection and resolution of blockages ("deadlocks")
 - Enery management: Load orders can interrupt tranfer orders
 - Traffic control: Buffer routes and waiting positions
-- (temporary) changes in the environment, such as freeing certain areas or changing the maximun speed
+- (temporary) changes in the environment, such as freeing certain areas or changing the maximum speed
 - Communication with peripheral systems such as doors, gates, elevators, etc. 
-- Detection and resolution of coomunication errors 
+- Detection and resolution of communication errors 
 
 Functions of the AGV are: 
 
@@ -457,7 +457,7 @@ Before reaching the decision point, the master control will send an updated path
 To communicate to the AGV what it will most likely have to do after reaching the decision point, an order consists of two separate parts: 
 
 - <u>Drive to the decision point "Base":</u> The "base" is the defined route that the AGV travels. All nodes and edges of the "Base" route have already been approved by the control panel for the vehicle. 
-- <u>Estimated journey from the decision point "Horizon":</u> The "Horizon" is the route that the AGV is likely to drive if there is no traffic jam. The "Horizon" route has not yet been approved by the control panel. However, the AGV will initially only travel to the last junction of the "Base" route.
+- <u>Estimated journey from the decision point "Horizon":</u> The "Horizon" is the route that the AGV is likely to drive if there is no traffic jam. The "Horizon" route has not yet been approved by the control panel. 
 
 However, the AGV will initially only travel to the last junction of the "Base" route.
 
